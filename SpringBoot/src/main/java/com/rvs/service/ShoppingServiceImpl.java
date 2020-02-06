@@ -1,4 +1,4 @@
-package com.carnegie.service;
+package com.rvs.service;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.carnegie.bean.Item;
-import com.carnegie.repository.ShoppingDao;
+import com.rvs.bean.Item;
+import com.rvs.repository.ShoppingDao;
 
 @Service
 public class ShoppingServiceImpl implements ShoppingService {

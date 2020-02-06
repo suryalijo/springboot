@@ -1,4 +1,4 @@
-package com.carnegie.api;
+package com.rvs.api;
 
 public class ApplicationConfig {
 

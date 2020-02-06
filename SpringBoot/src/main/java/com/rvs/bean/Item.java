@@ -1,4 +1,4 @@
-package com.carnegie.bean;
+package com.rvs.bean;
 
 import java.io.Serializable;
 

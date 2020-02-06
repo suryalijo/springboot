@@ -1,11 +1,9 @@
-package com.carnegie.service;
+package com.rvs.service;
 
 
 import java.util.List;
 
-
-
-import com.carnegie.bean.Item;
+import com.rvs.bean.Item;
 
 
 public interface ShoppingService {

@@ -1,9 +1,9 @@
-package com.carnegie.repository;
+package com.rvs.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.carnegie.bean.Item;
+import com.rvs.bean.Item;
 
 @Repository
 public interface ShoppingDao extends CrudRepository<Item, Long> {

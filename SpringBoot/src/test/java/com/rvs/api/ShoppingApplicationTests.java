@@ -1,4 +1,4 @@
-package com.carnegie.api;
+package com.rvs.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

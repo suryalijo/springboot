@@ -1,4 +1,4 @@
-package com.carnegie.api;
+package com.rvs.api;
 
 
 import java.util.List;
@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.carnegie.bean.Item;
-import com.carnegie.service.ShoppingService;
+import com.rvs.bean.Item;
+import com.rvs.service.ShoppingService;
 
 @SpringBootApplication(scanBasePackages={
-		"com.carnegie.service","com.carnegie.bean","com.carnegie.dao"})
+		"com.rvs.service","com.rvs.bean","com.rvs.dao"})
 @RestController
-@EntityScan("com.carnegie.bean")
-@EnableJpaRepositories("com.carnegie.repository")
+@EntityScan("com.rvs.bean")
+@EnableJpaRepositories("com.rvs.repository")
 @RequestMapping(value = "/shopping")
 public class ShoppingApplication {
 
